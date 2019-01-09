@@ -1,0 +1,178 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+
+.App {
+  text-align: right;
+}
+.App-mobile{
+	width:15px;
+	height:15px;
+	display:inline;
+	margin-right:5px;
+	margin-top:40px;
+	margin-bottom:1px;
+
+}
+h3{
+  text-align: right;
+	margin-right:10px;
+	margin-top:20px;
+	font-size:10px;
+}
+
+.App-logo {
+  float:left;
+  position:relative;
+  width:118px;
+  height:35px;
+  display:inline;
+}
+
+.App-header {
+  height:100px;
+width:100%;
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: 10px;
+    color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App-figure{
+	width:100%;
+	height:auto;
+	margin-top:2px;
+	margin-bottom:10px;
+}
+.App-section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav {
+    float: left;
+    width: 25%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+aside{
+  text-align: center;
+  float: right;
+      width: 25%;
+      height: 300px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 10px;
+}
+/* Style the list inside the menu */
+ul {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+  margin-left: 20%;
+  margin-right: 10%;
+    padding: 20px;
+    width: 75%;
+	text-align:center;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.cities {
+height:100px;
+    background-color:  #777;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+/* image over text*/
+.img1 {
+background-color:transparent;
+    float:left;
+    margin-left: 30px;
+	margin-right: 5px;
+
+    width: 180px;
+}
+.img1 img {
+    width: 100%;
+    height: auto;
+}
+.img1:hover {
+    border: 1px solid orange;
+}
+
+
+.desc {
+	margin-top:-5px;
+background-color:black;
+color:white;
+ padding: 16px;
+text-align: center;
+}
+.dropup {
+    position: relative;
+    display: block;
+}
+
+.dropup-content {
+	height:100px;
+    display: none;
+    position: absolute;
+	background-color: white;
+opacity:.8;
+    width: 178px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.dropup:hover .dropbtn {
+    background-color: #2980B9;
+}
+footer {
+  width:100%;
+    background-color:black;
+	    padding: 10px;
+font-size:13px;
+font-weight:normal;
+    text-align: center;
+    color: white;
+}
+.App-home{
+  width:15px;
+	height:15px;
+	display:inline;
+	margin-right:5px;
+	margin-top:40px;
+	margin-bottom:1px;
+}
